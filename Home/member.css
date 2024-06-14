@@ -1,0 +1,218 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    font-family: 'Oswald', sans-serif ;
+ }
+ .container{
+     display: flex;
+     padding-left: 120px;
+     padding-right: 120px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 1180px;
+ }
+ header{
+     display: grid;
+     height: 100px;
+     background-color: wheat;
+     position: fixed;
+     width: 100%;
+ }
+ .surjo-logo{
+     margin-right: 20px;
+     margin-top: 10px;
+     width: 120px;
+     height: 90px;
+ }
+ .nav-class{
+    display: flex;
+    width: 1200px; 
+ }
+ .nav-bar{
+     width: 750px;
+ }
+ .nav-bar li{
+     display: inline-block;
+     color: black;
+     font-weight: 900;
+     padding-left: 40px;
+     padding-top: 37px;
+     font-size:19px ;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-weight: 900;
+ }
+ a:hover{
+     color:rgb(247, 172, 37) ;
+     transition: 0.5s;
+     cursor: pointer;
+ }
+ 
+ .search-icon{
+     padding-top: 40px;
+     padding-left: 60px;
+ }
+ 
+ li>img{
+     width: 20px;
+     height: 20px;
+ }
+ 
+ li:hover{
+     color: rgb(11, 10, 252);
+     transition: 0.5s;
+     cursor: pointer; 
+ }
+ li:active{
+     color: red;
+ }
+ img:hover{
+     color: rgb(11, 10, 252);
+     transition: 0.5s;
+     cursor: pointer; 
+ }
+ i{
+     color: black;
+ }
+ i:hover{
+     color: rgb(37, 79, 247);
+     transition: 0.5s;
+     cursor: pointer;
+     transform: scale(1.5);  
+ }
+ .donate-button{
+     width: 250px;
+     height: 90px;
+     margin-left: 80px;
+     margin-top: 25px;
+ }
+ button{
+     background-color: rgb(7, 59, 245);
+     border-radius: 30px;
+     font-family: 'Oswald';
+     font-size: 20px;
+     padding: 10px 20px;
+     color:white;
+     font-weight: bolder;
+     border: 3px solid white;
+ 
+ }
+ .donate-button > button{
+     border: none;
+ }
+ button:hover{
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+ }
+ 
+ .gallary{
+    width: auto;
+    height: auto;
+    margin-top: 100px; 
+ }
+ .gallary>img{
+     width: 100%;
+     height: 600px;
+ }
+ .slider-gallary{
+     display: grid;
+ }
+ 
+ /* for this section */
+.pin{
+    border-right: 1px solid white;
+}
+p{
+    margin: 0px;
+    padding: 18px 0px 18px 70px ;
+}
+.forfaculty{
+    margin: 0%;
+    padding: 0%;
+    width: 1440px;
+    border-bottom: 2px solid black;
+}
+
+.griddiv{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    margin: 0% auto;
+    background-color: white; 
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.faculty{
+    box-shadow: 0px 3px 6px 0px;
+    max-width: 300px;
+    max-height: 550px;
+    margin: 10px; 
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;  
+}
+.faculty:hover{
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+}
+.facultyimg{
+    overflow: hidden;
+}
+.faculty:hover img{
+    transform: scale(1.1);
+}
+
+.faculty-designetion{
+    background-color: #089cc2;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 0 0 7px 7px;
+    padding-top: 10px;
+    color: aliceblue;
+}
+.faculty img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.facultyimg{
+    height:350px;
+}
+
+.faculty-name{
+    height: 50px;
+}
+.faculty-name>h3{
+    margin-top: 15px;
+}
+.cld {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.cld li {
+    padding: 5px;
+    margin: 0px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+.cld >li > a{
+    color: white;
+}
+
+
+

@@ -1,0 +1,175 @@
+.footer1{
+    background-color:rgb(248, 198, 24);
+    height: 150px;
+}
+
+.headtitle{
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+}
+.senonddiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+}
+.but{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+}
+.but button{
+    background-color: black;
+    float: right;
+}
+.title{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-color: #FF5200;
+    border-radius: 150px 0px 150px 0px;
+}
+
+
+.title h1{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.senonddiv{
+    height: 150px;
+    width: 750px;
+    margin-left: 100px;
+    background-color:rgb(0, 38, 255) ;
+    border-radius: 150px 0px 150px 0px;
+    border-right: 5px solid yellow ; 
+    border-left: 5px solid yellow;
+}
+.outer{
+    background-color: rgb(0, 38, 255);
+    height: 150px ;
+    border-radius: 150px 0px 150px 0px;
+}
+.button1 button{
+    width: 160px;
+    background-color:#FF5200 ;
+}
+.button1{
+    margin-left: 40px;
+}
+.button2 button{
+    background-color:#FF5200 ;
+    float: left;
+}
+.button1> button :hover{
+   color: black;
+}
+.style{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 200px;
+    height: 150px;
+}
+.style img{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    color: #FF5200;
+}
+.style hr{
+    margin-top: 80px;
+    width: 30px;
+    height: 3px;
+    background-color: yellow;
+    border: none;
+}
+.footer{
+    height: 450px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(43, 41, 39);
+    color: rgb(177, 175, 175);
+}
+.fourthtext{
+    margin-top: 70px;
+    width: 300px;
+    height: 350px;
+    padding-left: 10px;
+}
+.socaldiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 66px;
+    margin-left: 50px;
+}
+.social{
+    width: 50px;
+    height: 50px;
+}
+.soione{
+    grid-column:1 ;
+}
+.soitwo{
+    grid-column:2 ;
+}
+.soithree{
+    grid-column: 3 ;
+    grid-row: 1;
+}
+.soifour{
+    grid-column: 1;
+}
+
+.social i{
+    color:white;
+}
+.fourthtext p{
+    margin-top: 60px;
+    color: white;
+}
+.fourthtext h3{
+    text-align: center;
+}
+.fourthtext button{
+    margin-top: 30px;
+    width: 150px;
+    font-size: 12px;
+    border-radius: 0px;
+    margin-left: 75px;
+}
+.uslink{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+    margin-left: 30px;
+}
+.uslink a{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.uslink a:hover{
+    color: #FF5200;
+    transition: calc(0.5);
+}
+.usfullink{
+    margin-top: 60px;
+}
+.pageslink{
+    margin-top: 60px;
+}
+
+.last{
+    background-color: rgb(43, 41, 39);
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+.copy h1{
+    font-size: 20px;
+    font-weight: 100;
+}

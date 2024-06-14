@@ -1,0 +1,412 @@
+*{
+   margin: 0%; 
+   padding: 0%;
+   font-family: 'Oswald', sans-serif ;
+}
+.container{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1180px;
+}
+
+header{
+    display: grid;
+    height: 100px;
+    background-color: wheat;
+    position: fixed;
+    width: 100%;
+}
+.surjo-logo{
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 90px;
+}
+.nav-class{
+   display: flex;
+   width: 1200px; 
+}
+.nav-bar{
+    width: 750px;
+}
+.nav-bar li{
+    display: inline-block;
+    color: black;
+    font-weight: 900;
+    padding-left: 40px;
+    padding-top: 37px;
+    font-size:19px ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+a:hover{
+    color:rgb(247, 172, 37) ;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.search-icon{
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+li>img{
+    width: 20px;
+    height: 20px;
+}
+
+li:hover{
+    color: rgb(11, 10, 252);
+    transition: 0.5s;
+    cursor: pointer; 
+}
+li:active{
+    color: red;
+}
+img:hover{
+    color: rgb(11, 10, 252);
+    transition: 0.5s;
+    cursor: pointer; 
+}
+i{
+    color: black;
+}
+i:hover{
+    color: rgb(37, 79, 247);
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.5);  
+}
+.donate-button{
+    width: 250px;
+    height: 90px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+button{
+    background-color: rgb(7, 59, 245);
+    border-radius: 30px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    padding: 10px 20px;
+    color:white;
+    font-weight: bolder;
+    border: 3px solid white;
+
+}
+.donate-button > button{
+    border: none;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* .gallary{
+   width: auto;
+   height: auto;
+    
+}
+.gallary>img{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+.slider-gallary{
+    display: grid;
+} */
+
+
+.gridal-button{
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin-top: -25px;
+    margin-left: 115px;
+    overflow: hidden;
+}
+
+
+.gridal-child{
+    border-radius: 7px;
+    padding: 10px;
+    margin: 100px 10px 80px 10px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    background-color: beige;
+    background-color: wheat;
+}
+.img-section img{
+    width: 355px;
+    height: 220px;
+    align-items: center;
+}
+
+.discription-section{
+    margin-top: 15px;
+    width: 315px;
+    height: 280px;
+    background-color:#FFFF;
+    letter-spacing: 0.5px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.discription-section > p{
+    margin-top: 10px;
+    font-family: "jost", Sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.discription-section > h2{
+    color: rgb(37, 69, 247);
+}
+.gridal-div{
+    background-image:url(gradient-white-monochrome-background_23-2149017048.avif); 
+    height: 800px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-top: -5px; 
+}
+
+
+.line{
+    width: 100%;
+    height: 15px;
+    background-color: rgb(31, 24, 235);
+}
+
+.About-us{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(227, 229, 233);
+}
+
+
+.cld {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+
+.cld li {
+  padding: 5px;
+  margin: 0px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 100;
+}
+.cld >li > a{
+  color: white;
+}
+
+
+
+/* for other code */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#service {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: #ddd;
+}
+
+.ser {
+  margin-left: 40px;
+  background-color: #f5f6f6f6;
+  border: 1px solid #FF5200;
+  height: 300px;
+  float: left;
+  width: 186px;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 100px;
+}
+
+
+
+.fimg {
+  padding: 20px;
+  color: #FF5200;
+}
+
+
+
+.ser h3 {
+  margin-bottom: 20px;
+}
+
+
+.ser p {
+  width: 200px;
+  line-height: 1.7rem;
+  color: #656565;
+}
+
+.ser a {
+  color: #FF5200;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+
+.unique {
+  background-color: #FF5200;
+  color: white;
+  border: 1px solid #FF5200;
+  height: 300px;
+  float: left;
+  width: 190px;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 100px;
+  margin-left: 40px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.unique h3 {
+  margin-bottom: 20px;
+}
+
+.uimg {
+  padding: 20px;
+  color: white;
+}
+
+.unique a {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.unique p {
+  width: 200px;
+  line-height: 1.7rem;
+}
+
+.workpic img {
+  width: 500px;
+  height: 400px;
+  float: left;
+  margin: 80px 0px;
+  border-style: none;
+  transition: all 0.4s;
+  cursor: grab;
+  overflow: hidden;
+  margin-left: 30px;
+}
+.workpic img:hover{
+  transform: scale(0.9);
+}
+.texthed{
+    margin-left: 50px;
+}
+
+.texthed h1 {
+  float: left;
+  width: 500px;
+  padding-top: 80px;
+  padding-left: 50px;
+  font-size: 36px;
+  color: black;
+}
+
+.texthed p {
+  width: 450px;
+  height: 100px;
+  float: left;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-left: 50px;
+}
+
+.texthed ul {
+  float: left;
+  width: 300px;
+  color: #656565;
+  margin-top: 0px; 
+  list-style: none;  
+}
+
+
+#l {
+  padding-left: 50px;
+  padding-top: 19px;
+  font-size: 18px;
+  width: 170px;  
+}
+
+#d {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 18px;
+  width: 170px;
+}
+.texthed button{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+
+
+
+ 
+
+
+
+

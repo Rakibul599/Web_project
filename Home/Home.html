@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="fotter.css">
+  <link rel="stylesheet" href="slide.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="back-i">
+    <header class="header-section">
+      <div class="container">
+        <div class="surjo-logo">
+          <a href="Home.html"><img width="80px" height="80px" src="logo.png" alt></a>
+        </div>
+        <div class="nav-class">
+          <nav class="nav-bar">
+            <ul>
+              <li class="var-text"><a href="../Home/Home.html">Home</a></li>
+                            <li class="var-text" onmouseover="show('project')" onmouseout="hide('project')">
+                                Projects <img src="sort-down-solid.svg" alt="">
+                                <ul class="cld" id="project">
+                                    <li><a href="../upload_project/project.php">New</a></li>
+                                    <li>Upcoming</li>
+                                    <li>Old</li>
+                                </ul>
+                            </li>
+                            <li class="var-text" onmouseover="show('update')" onmouseout="hide('update')">
+                                Updates <img src="sort-down-solid.svg" alt="">
+                                <ul class="cld" id="update">
+                                    <li><a href="../newsfeed/newsfeed.php">News</a></li>
+                                    <li>Blog</li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="var-text" onmouseover="show('about')" onmouseout="hide('about')">
+                                About Us<img src="sort-down-solid.svg" alt="">
+                                <ul class="cld" id="about">
+                                    <li><a href="../Home/Member.html">Member</a></li>
+                                    <li><a href="../photo_gallery/photo_gallery.php">Gallery</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="var-text" onmouseover="show('sign')" onmouseout="hide('sign')">
+                              Sign Up<img src="sort-down-solid.svg" alt="">
+                              <ul class="cld" id="sign">
+                                  <li><a href="../Registrationform/serveyform.php">Sign Up</a></li>
+                                  <li><a href="./Login_form-main/index.php">Sign In</a></li>
+                              </ul>
+
+                          </li>
+
+            </ul>
+          </nav>
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+          </div>
+          <div class="donate-button">
+            <button><a href="../donate/donate.php">Sponsor A People</a></button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+
+  <section class="dynamic-gallery">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="Sponsor-A-Child.webp" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="pic2.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="pic4.jpeg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+  </section>
+  
+  <section class="gridal-div">
+    <div class="container">
+      <div class="gridal-child">
+        <div class="img-section">
+          <img src="volunteer2.jpeg" alt>
+        </div>
+        <div class="discription-section">
+          <h2>Volunteerism</h2>
+          <p>Launched in 2007, our Education Program aims to make quality
+            education accessible in the most rural and
+            remote parts of Bangladesh. To date, we have established 11
+            Digital Schools across the nation and are
+            providing formal education to 4500+ underprivileged children.
+          </p>
+
+        </div>
+        <button class="gridal-button"><a href="../Registrationform/serveyform.php">Add Our Team</a></button>
+      </div>
+
+      <div class="gridal-child">
+        <div class="img-section">
+          <img src="group-primary-schoolers-lying-ground-smiling_53876-138021.avif" alt>
+        </div>
+        <div class="discription-section">
+          <h2>Work With Child</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            cum minus natus cumque odit laborum
+            necessitatibus sit, ipsa quaerat blanditiis. Ipsa animi nesciunt
+            eveniet nostrum libero obcaecati minima
+            recusandae beatae.</p>
+
+        </div>
+        <button class="gridal-button">READ MORE</button>
+      </div>
+
+      <div class="gridal-child">
+        <div class="img-section">
+          <img src="downlode-smart-edu.jpeg" alt>
+        </div>
+        <div class="discription-section">
+          <h2>Smart Education</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus voluptas at culpa sint accusantium,
+            itaque quo dolor illo ut facere laboriosam odio, adipisci eveniet
+            praesentium quam rerum, nulla consequatur
+            minus?</p>
+
+        </div>
+        <button class="gridal-button">READ MORE</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="line">
+    </div>
+
+    <section id="service">
+      <div class="container">
+        <div class="servinner">
+          <div class="ser">
+            <div class="fimg"><i class="fa-solid fa-briefcase fa-2xl"></i></div>
+            <div class="ftex">
+              <h3>ARCHITECTURE & ENGINEERING</h3>
+              <p>Mauris Mattis Auctor Tellus Imperdiet Eu Ut Imperdiet Tellus,
+                Imperdiet Ut</p>
+              <a class="same" href="#">Learn more ⟶</a>
+            </div>
+          </div>
+
+          <div class=" unique">
+            <div class="uimg"><i class="fa-solid fa-truck-medical fa-2xl"></i></div>
+            <div class="secondtext">
+              <h3>CONSULTANT & PREPARATION</h3>
+              <p>Mauris Mattis Auctor Tellus Imperdiet Eu Ut Imperdiet Tellus,
+                Imperdiet Ut</p>
+              <a class="same usame" href="#">Learn more ⟶</a>
+            </div>
+          </div>
+
+          <div class="ser">
+            <div class="fimg"><i class="fa-solid fa-chart-line fa-2xl"></i></div>
+            <div class="thirdtext">
+              <h3>CONSULTANT & PREPARATION</h3>
+              <p>Mauris Mattis Auctor Tellus Imperdiet Eu Ut Imperdiet Tellus,
+                Imperdiet Ut</p>
+              <a class="same" href="#">Learn more ⟶</a>
+            </div>
+          </div>
+
+          <div class="ser">
+            <div class="fimg"><i class="fa-solid fa-building-columns fa-2xl"></i></div>
+            <div class="fourthtext">
+              <h3>CONSULTANT & PREPARATION</h3>
+              <p>Mauris Mattis Auctor Tellus Imperdiet Eu Ut Imperdiet Tellus,
+                Imperdiet Ut</p>
+              <a class="same" href="#">Learn more ⟶</a>
+            </div>
+          </div>
+    </section>
+
+    <section class="workteam">
+      <div class="container">
+        <div class="workpic">
+          <img src="volunteer2.jpeg">
+        </div>
+        <div class="texthed">
+          <h1>WORK WITH OUR TEAMS</h1>
+          <p>Mauris mattis auctor cursus. Phasellus tellus tellus,
+            imperdiet ut imperdiet eu, iaculis a sem. Donec
+            vehicula luctus nunc in laoreet. Aliquam erat volutpat.
+            Suspendisse vulputate porttitor condimentum. Proin
+            viverra orci a leo suscipit placerat. Sed feugiat posuere
+            semper. Cras vitae mi erat </p>
+          <ul id="liu1">
+            <li id="l">> Building Quality</li>
+            <li id="l">> Honest Advisors</li>
+            <li id="l">> 24/1week Supports</li>
+          </ul>
+          <ul id="liu2">
+            <li id="d">> Performances Team</li>
+            <li id="d">> Work Solutions</li>
+            <li id="d">> Work & Deadline</li>
+          </ul>
+          <button><a href="../Registrationform/serveyform.php">GET START</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="footer1">
+        <div class="outer">
+          <div class="container">
+            <div class="headtitle">
+              <div class="title ">
+                <h1>Build a Community </h1>
+              </div>
+              <div class="senonddiv">
+                <div class="button1 but"><button><a href="../donate/donate.php">Donate</a></button></div>
+                <div class="style">
+                  <hr id="hr1">
+                  <img src="sunpic.png" alt>
+                  <hr>
+                </div>
+                <div class="button2 but"><button><a href="../donate/donate.php">Sponsor
+                    People</a></button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="firstfot">
+          <div class="fourtext">
+            <h3>OUR AIM</h3>
+            <p>Mauris Mattis Auctor Tellus Imperdiet Eu Ut Imperdiet
+              Tellus, Imperdiet Ut Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum rerum culpa excepturi
+              voluptatum corporis adipisci atque consequatur, temporibus maiores autem necessitatibus nam id eveniet
+              quia! Et odio laborum reprehenderit quibusdam.</p>
+            <button>READ MORE>></button>
+          </div>
+        </div>
+        <div class="secondfot">
+          <div class="fourtext">
+            <div>
+              <h3>PAGES</h3>
+            </div>
+            <div class="pageslink">
+              <div class="uslink"><a href="../Home/Member.html">>> About us</a></div>
+              <div class="uslink"><a href="#">>> Contact us</a></div>
+              <div class="uslink"><a href="../Registrationform/serveyform.php">>> Sign Up</a></div>
+              <div class="uslink"><a href="../newsfeed/newsfeed.php">>> Update News</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="thirdfot">
+          <div class="fourtext">
+
+            <div>
+              <h3>USEFUL LINKS</h3>
+            </div>
+            <div class="usfullink">
+              <div class="uslink"><a href="../donate/donate.php">>> Sponsor People</a></div>
+              <div class="uslink"><a href="../donate/donate.php">>> Donate</a></div>
+              <div class="uslink"><a href="../photo_gallery/photo_gallery.php">>> Gallary</a></div>
+              <div class="uslink"><a href="#">>> Video</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="fourfot">
+          <div class="fourtext">
+            <div>
+              <h3>SOCIAL MEDIA</h3>
+            </div>
+            <div class="socaldiv">
+              <div class="social soione"><a href="https://www.facebook.com/groups/682079865688306"><i class="fa-brands fa-facebook fa-2xl"></i></i></a></div>
+              <div class="social soitwo"><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></div>
+              <div class="social soithree"><a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></div>
+              <div class="social soifour"><a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a></div>
+              <div class="social soifive"><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
+              <div class="social soisix"><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    <hr>
+    <section class="last">
+      <div class="copy">
+        <h1 style="color: rgb(177, 175, 175);">Copyright&copy;by SS Software</h1>
+      </div>
+    </section>
+    <script src="./project.js"></script>
+    <script src="./slide.js"></script>
+</body>
+
+</html>
